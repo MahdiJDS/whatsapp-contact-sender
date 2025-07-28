@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Whatsapp</title>
+</head>
+
+<body>
+    <h1>Send WhatsApp message</h1>
+
+    <label for="contacts">Select audience:</label>
+    <select id="contacts"></select>
+
+    <label for="message">Message :</label>
+    <input type="text" id="message" placeholder="Enter your massege: ">
+
+    <button id="send">Send</button>
+    <button id="showPopup">Create new audience</button>
+    <button id="deleteB">Delete</button>
+
+    <div id="popupOverlay"></div>
+    <div id="popup">
+        <h2>Create audience</h2>
+        <label for="popupName">Name :</label>
+        <input type="text" id="popupName" placeholder="Enter name ... ">
+
+        <label for="popupPhone">Phone : </label>
+        <input type="text" id="popupPhone" placeholder="Enter phone ...">
+
+        <button id="addContact">Add</button>
+        <button id="closePopup">Close</button>
+    </div>
+
+    <script defer src="./script.js"></script>
+</body>
+
+</html>
