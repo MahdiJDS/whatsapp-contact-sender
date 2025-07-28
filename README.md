@@ -15,12 +15,10 @@ A sleek, dynamic contact management mini-app powered by **Vanilla JavaScript** a
 
 ---
 
-## ✨ Live Demo (optional)
 
+## 🚀 Live Demo
 
-## 🚀 Live Preview
-
-👉 [View Live on GitHub Pages](https://mahdijds.github.io/signature-pad/)  
+👉 [View Live on GitHub Pages](https://mahdijds.github.io/whatsapp-contact-sender/)  
 
 
 ---
